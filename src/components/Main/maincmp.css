@@ -1,0 +1,7 @@
+main.main-wrap {
+  padding-top: 220px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

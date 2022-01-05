@@ -1,0 +1,29 @@
+.list-wrap {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr repeat(5, 1fr) 150px;
+}
+
+.list-field {
+  height: 48px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  color: #05111a;
+}
+.list-field.odd {
+  background: var(--odd-row-bg-color);
+}
+.list-field.even {
+  box-shadow: inset 0px 4px 6px -6px #e6e7e9, inset 0px -4px 6px -6px #e6e7e9;
+}
+.list-row-details {
+  grid-column: 1 / 8;
+  overflow: hidden;
+  max-height: 0px;
+  transition: 0.4s max-height;
+}
+.list-row-details.expanded {
+  padding: 20px 0;
+  max-height: 500px;
+}

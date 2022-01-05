@@ -1,0 +1,10 @@
+.grid-wrap {
+  margin-top: 30px;
+  width: 1364px;
+}
+
+.grid-main {
+  background: #fff;
+  min-height: 458px;
+  display: flex;
+}

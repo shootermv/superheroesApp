@@ -1,0 +1,24 @@
+.grid-search {
+  height: 107px;
+  background: var(--header-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-search input {
+  height: 46px;
+  margin-right: 23px;
+  width: 481px;
+  border-radius: 4px;
+  border-color: #dddddd;
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: 8px;
+  padding: 0 12px;
+}
+.grid-search input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--disabled-text-color);
+  opacity: 1; /* Firefox */
+}

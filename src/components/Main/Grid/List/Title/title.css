@@ -1,0 +1,12 @@
+.list-field-title {
+  background: var(--grid-header-bg-color);
+  height: 48px;
+  padding: 0 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.list-field-title img {
+  margin-left: 20px;
+  cursor: pointer;
+}

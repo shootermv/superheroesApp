@@ -1,0 +1,11 @@
+.toggle-buttons .button:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.toggle-buttons .button:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.toggle-buttons .button {
+  width: 204px;
+}
